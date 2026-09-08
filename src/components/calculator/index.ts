@@ -1,0 +1,12 @@
+export { SIPCalculator } from './SIPCalculator';
+export { LumpsumCalculator } from './LumpsumCalculator';
+export { StepUpSIPCalculator } from './StepUpSIPCalculator';
+export { SWPCalculator } from './SWPCalculator';
+export { STPCalculator } from './STPCalculator';
+export { XIRRCalculator } from './XIRRCalculator';
+export { RetirementCalculator } from './RetirementCalculator';
+export { ChildEducationCalculator } from './ChildEducationCalculator';
+export { MarriageGoalCalculator } from './MarriageGoalCalculator';
+export { FinancialGoalCalculator } from './FinancialGoalCalculator';
+export { InflationCalculator } from './InflationCalculator';
+export { MFvsFDCalculator } from './MFvsFDCalculator';

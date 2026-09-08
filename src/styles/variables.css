@@ -1,0 +1,159 @@
+:root {
+  /* Color Tokens — FinRev Digital Card Inspired Financial Palette */
+  --color-brand-50: #f0f4f8;
+  --color-brand-100: #d9e2ec;
+  --color-brand-200: #bcccdc;
+  --color-brand-300: #9fb3c8;
+  --color-brand-400: #829ab1;
+  --color-brand-500: #163a5f;
+  --color-brand-600: #102a43; /* Midnight Navy — Core Brand */
+  --color-brand-700: #0b1f33;
+  --color-brand-800: #0b1b2b; /* Deep Canvas */
+  --color-brand-900: #07121e;
+  --color-brand-950: #040a12;
+
+  /* Teal Growth Accent */
+  --color-teal-50: #e8f4f5;
+  --color-teal-100: #c2e2e5;
+  --color-teal-200: #99cfd5;
+  --color-teal-300: #6fbbc4;
+  --color-teal-400: #46a8b4;
+  --color-teal-500: #247b85; /* Teal Hover */
+  --color-teal-600: #1b5b63; /* Teal Base Accent */
+  --color-teal-700: #14444a;
+  --color-teal-800: #0e2d31;
+  --color-teal-900: #071618;
+
+  /* Wealth Gold Accent */
+  --color-gold-50: #fef8e6;
+  --color-gold-100: #fdeeb8;
+  --color-gold-200: #fce38a;
+  --color-gold-300: #fbd95c;
+  --color-gold-400: #fac82e;
+  --color-gold-500: #f2b705; /* Primary Wealth Gold */
+  --color-gold-600: #d49e00; /* Contrast Dark Gold */
+  --color-gold-700: #b78103;
+  --color-gold-800: #8c6202;
+  --color-gold-900: #593e01;
+
+  --color-accent-500: #1b5b63;
+  --color-accent-600: #14444a;
+
+  --color-neutral-50: #f5f7f8;
+  --color-neutral-100: #f0f4f8;
+  --color-neutral-200: #d9e2ec;
+  --color-neutral-300: #bcccdc;
+  --color-neutral-400: #829ab1;
+  --color-neutral-500: #526777;
+  --color-neutral-600: #334e68;
+  --color-neutral-700: #243b53;
+  --color-neutral-800: #102a43;
+  --color-neutral-900: #0b1b2b;
+  --color-neutral-950: #07121e;
+
+  --color-error-500: #e11d48;
+  --color-warning-500: #f59e0b;
+
+  /* Semantic Colors (Light Mode) */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f5f7f8;
+  --color-bg-tertiary: #f0f4f8;
+  --color-bg-inverse: #102a43;
+
+  --color-text-primary: #102a43;
+  --color-text-secondary: #334e68;
+  --color-text-tertiary: #526777;
+  --color-text-inverse: #f5f7f8;
+  --color-text-brand: #102a43;
+  --color-text-accent: #1b5b63;
+  --color-text-gold: #b78103;
+  --color-text-error: #e11d48;
+
+  --color-border-primary: #d9e2ec;
+  --color-border-secondary: #bcccdc;
+  --color-border-focus: #102a43;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.35;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+
+  /* Spacing (4px base) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Border Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Shadows — Tactile Elevation & Financial Gloss */
+  --shadow-sm: 0 1px 2px 0 rgb(16 42 67 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(16 42 67 / 0.08), 0 2px 4px -2px rgb(16 42 67 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(16 42 67 / 0.1), 0 4px 6px -4px rgb(16 42 67 / 0.05);
+  --shadow-xl: 0 20px 25px -5px rgb(16 42 67 / 0.12), 0 8px 10px -6px rgb(16 42 67 / 0.06);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 300ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Z-Index */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+  --z-toast: 600;
+  --z-tooltip: 700;
+}
+
+.dark {
+  /* Semantic Colors (Dark Mode) */
+  --color-bg-primary: #0b1b2b;
+  --color-bg-secondary: #0b1f33;
+  --color-bg-tertiary: #102a43;
+  --color-bg-inverse: #f5f7f8;
+
+  --color-text-primary: #f5f7f8;
+  --color-text-secondary: #d9e2ec;
+  --color-text-tertiary: #829ab1;
+  --color-text-inverse: #102a43;
+  --color-text-brand: #9fb3c8;
+  --color-text-accent: #46a8b4;
+  --color-text-gold: #f2b705;
+  --color-text-error: #f87171;
+
+  --color-border-primary: #163a5f;
+  --color-border-secondary: #243b53;
+  --color-border-focus: #f2b705;
+}
